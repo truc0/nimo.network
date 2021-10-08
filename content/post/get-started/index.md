@@ -1,7 +1,7 @@
 ---
 title: "Get Started"
 date: 2021-10-08T12:25:39+08:00
-draft: true
+draft: false
 ---
 
 Welcome!

@@ -1,7 +1,7 @@
 ---
 title: "0x00 Widely Used Tools"
 date: 2021-10-08T16:05:16+08:00
-draft: true
+draft: false 
 ---
 
 Web developers are using different tools for web developing. Web development can be divided into `frontend` and `backend`. `Frontend` is the part that that users interact with, or what you see in the browser while `backend` is more related to data processing, data storage and so on. We will focus on `frontend` in this semester and learn backend in the next semester (Spring 2022).

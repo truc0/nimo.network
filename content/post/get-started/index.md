@@ -10,7 +10,7 @@ Welcome!
 
 ## Something Important
 
-1. The author's English is very poor, if you find some grammar mistakes or typo, feel free to open a `pull request` to the [github repository](https://github.com/truc0/nimo.network).
+1. The author's English is very poor, if you find some grammar mistakes or typos, feel free to open a `pull request` to the [github repository](https://github.com/truc0/nimo.network).
 
 2. The author is busy with school <del>and fish touching</del>. Please ask **Search Engine** first before contacting the author when you have any question.
 

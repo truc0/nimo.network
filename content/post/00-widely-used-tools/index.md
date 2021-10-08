@@ -12,7 +12,7 @@ For `frontend` development, some tools are important:
 
 - [NodeJS](https://nodejs.org): NodeJS enables developers run javascript outside the browser
 - [NPM](https://nodejs.org): NPM is the package manager for NodeJS, it will be installed with NodeJS by default
-- [Yarn](https://yarnpkg.com): **[Optional]** Yarn is another package manager like NPM and it seems better that NPM
+- [Yarn](https://yarnpkg.com): **[Optional]** Yarn is another package manager like NPM and it seems better than NPM
 
 **Notice**: it is **not** recommanded to install the _latest_ version of nodejs and npm. Please choose the latest `LTS(Long Term Support)` version (currently `v14.18.0`) instead of the latest one (currently `v16.10.0`).
 

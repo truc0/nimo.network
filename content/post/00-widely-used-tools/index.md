@@ -1,37 +1,43 @@
 ---
-title: "0x00 Widely Used Tools"
+title: "0x00 常用工具"
 date: 2021-10-08T16:05:16+08:00
 draft: false 
 ---
 
-Web developers are using different tools for web developing. Web development can be divided into `frontend` and `backend`. `Frontend` is the part that that users interact with, or what you see in the browser while `backend` is more related to data processing, data storage and so on. We will focus on `frontend` in this semester and learn backend in the next semester (Spring 2022).
+`Web`开发主要分为前端（`Frontend`）和后端（`Backend`）。后端主要负责数据的处理、存储等功能，前端则主要负责对数据的展示和与用户的交互。以你部后台为例，虽然网管员和普通用户能看到的内容不同，但是都属于数据的展示和新数据的输入，故均属于前端范畴。用户和网管员都可以在前端中提交报修请求，报修请求会由前端发送到后端，后端的处理流程大致如下：
+1. 用户是否为网管员
+2. 如果是用户，验证该用户是否有未完成的报修
+3. 确认无误后将请求保存到数据库
 
-## Frontend Development
 
-For `frontend` development, some tools are important:
+## Web 前端开发相关工具
 
-- [NodeJS](https://nodejs.org): NodeJS enables developers run javascript outside the browser
-- [NPM](https://nodejs.org): NPM is the package manager for NodeJS, it will be installed with NodeJS by default
-- [Yarn](https://yarnpkg.com): **[Optional]** Yarn is another package manager like NPM and it seems better than NPM
+前端常用的工具如下
 
-**Notice**: it is **not** recommanded to install the _latest_ version of nodejs and npm. Please choose the latest `LTS(Long Term Support)` version (currently `v14.18.0`) instead of the latest one (currently `v16.10.0`).
+- [NodeJS](https://nodejs.org): `NodeJS` 可以让开发者在非浏览器的环境下运行`Javascript`
+- [NPM](https://nodejs.org): `NPM` 是 `NodeJS` 的一个包管理器，一般会在安装`NodeJS`的时候自动安装
+- [Yarn](https://yarnpkg.com): **[Optional]** Yarn 是`NPM`的另一个包管理器（据说比`NPM`好一些）
+
+**注意**: 我们**并不**推荐安装 _最新版_ 的`NodeJS`和`NPM`。一个更加明智的选择是安装`LTS(Long Term Support)`版本（当前是`v14.18.x`）。我们将会使用最新的`LTS(Long Term Support)`版本。
 
 ### NodeJS Version Manager (Optional)
 
-Since `nodejs` is developing rapidly, many projects are created with nodejs with low version (like `v12.x.x` or even `v8.x.x`) and some packages will crash in the latest version. `NVM (Node Version Manager)` can solve this problem.
+`NodeJS`开发迭代的速度非常快，导致有些现在仍在使用的项目用的`NodeJS`版本与当前版本相差甚远。有些使用低版本的项目不能直接用高版本运行，所以对于开发人员来说，在自己的电脑上安装多个`NodeJS`版本对开发有很大的帮助。`NVM (Node Version Manager)`是其中一个解决方案。
 
-This is optional for the tutorial because we will use the latest version (should be `v14`).
+但是在本学期的学习中，我们的项目均会使用最新的`LTS`版本，所以这并不是必须的。
 
-You can find nvm in [Github](https://github.com/nvm-sh/nvm).
+`NVM`可以在[Github](https://github.com/nvm-sh/nvm)找到。
 
-## Project Management
+## 项目管理
 
-For project management, [git](https://git-scm.com) is an important and super useful tool for version control and collaborating with each other.
+[Git](https://git-scm.com)是一个被广泛使用的版本控制工具，在团队协作中常有突出的作用。
 
-Before creating a real world project, you should install `git` and learn how to use it.
+我们强烈建议在开始做项目之前安装并学习使用[git](https://git-scm.com)。
 
-Recommanded tutorials are:
-- [Learn Git Branching](https://learngitbranching.js.org/): it is recommanded to finish section `Introduction Sequence` and `Ramping Up`.
-- [Doc from Git SCM](https://git-scm.com/doc): (the author have not read this before).
+一些推荐教程如下：
+- [Learn Git Branching](https://learngitbranching.js.org/): 建议完成`Introduction Sequence`和`Ramping Up`两个章节
+- [Doc from Git SCM](https://git-scm.com/doc): （笔者也没看过）
 
-It is also recommanded to [create a Github account](https://github.com/signup) for practicing git!
+你可以在[Github](https://github.com)上创建一个账号用以练习。
+
+祝好！

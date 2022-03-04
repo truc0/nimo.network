@@ -21,7 +21,7 @@ googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = "NIMOdev"            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # essential                     # 必需
-  name = "NIMO 2021 Web Group"
+  name = "NIMO Web"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"

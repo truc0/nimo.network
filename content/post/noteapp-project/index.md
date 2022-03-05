@@ -70,6 +70,9 @@ NoteApp 是一个笔记软件，采用前后端分离的开发模式。
 
 如果对上述软件完全没有概念，可以通过文档中提供的样例先作学习。
 
+附上安装过程：
+![](./images/cli.gif)
+
 # 本地后端环境搭建
 
 > 项目地址为[https://github.com/truc0/simple-noteapp](https://github.com/truc0/simple-noteapp)

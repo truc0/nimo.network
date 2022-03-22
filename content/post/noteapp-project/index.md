@@ -132,11 +132,15 @@ source <path>/bin/active
 
 ## 安装依赖
 
-由于现阶段的相关问题，为了能够正常使用后端，需要安装`requirements.dev.txt`版本的依赖。
-你可以通过以下命令安装所需依赖。请在输入命令之前确保当前目录是后端的源码目录。
+<del>由于现阶段的相关问题，为了能够正常使用后端，需要安装`requirements.dev.txt`版本的依赖。
+你可以通过以下命令安装所需依赖。请在输入命令之前确保当前目录是后端的源码目录。</del>
+
+2022-03-22 更新：
+
+请使用`requirements.txt`文件。安装依赖的命令如下：
 
 ```bash
-pip install -r requirements.dev.txt
+pip install -r requirements.txt
 ```
 
 ## 配置后端及初始化数据库
@@ -149,9 +153,10 @@ cp noteapp/config.example.py noteapp/config.py
 ```
 
 在开始之前应当适当更改配置。如：
-- `DEBUG`选项应设置为`True`
+- <del>`DEBUG`选项应设置为`True`</del> （2022-03-22 更新：已在最新版本的后端中将`DEBUG`默认值设置为`True`）
 - `SECRET_KEY`选项应设置为新生成的值，参考网站为：[https://djecrety.ir/](https://djecrety.ir/)
-- `LOGGING`选项应设置为`None`
+- <del>`LOGGING`选项应设置为`None`</del>（2022-03-22 更新：已在最新版本的后端中将`LOGGING`默认值设置为`None`）
+
 
 配置完文件后可以初始数据库。在这里我们使用的数据库为`sqlite3`，是一个基于单文件的数据库，
 一般而言不需要额外安装软件即可使用。下列命令会初始化数据库。

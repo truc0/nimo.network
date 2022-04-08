@@ -36,7 +36,7 @@ NoteApp 是一个笔记软件，采用前后端分离的开发模式。
 在Lab 1中我们已经完成了登录页面的设计与功能。该页面可以实现用户的登录，并获得一个`token`。
 前端需要在请求中附带`token`以证明自己的身份，后端会利用`token`进行鉴权。
 
-具体的实现为给后端发送请求时加上一个名为`Authentication`的HTTP请求头（HTTP Request Header）。
+具体的实现为给后端发送请求时加上一个名为`Authorization`的HTTP请求头（HTTP Request Header）。
 该请求头的值格式为`Token <token>`，其中`<token>`为登录是得到的`token`（不含尖括号）。
 
 ## 在请求中附带请求头
@@ -52,7 +52,7 @@ fetch('http://localhost:8080'. {
   method: 'POST',
   mode: 'cors',
   headers: {
-    Authentication: 'Token <replace with your token>'
+    Authorization: 'Token <replace with your token>'
   }
 })
 ```
@@ -66,7 +66,7 @@ fetch('http://localhost:8080'. {
 ```js
 axios.request('http://localhost:8080', {
   headers: {
-    Authentication: 'Token <replace with your token>'
+    Authorization: 'Token <replace with your token>'
   }
 })
 ```
